@@ -1,0 +1,9 @@
+nvm install 20 -> Instala a versao que eu desejo no sistema.
+nvm install --lts -> Instala a versao atual em long-term support (versao atual e recomendada)
+nvm list -> Lista as versoes de node.
+nvm use 18 -> Usa a versao que passei como parametro
+nvm alias default 18 -> usa como padrao a versao que passei como parametro
+
+Criar o arquivo .nvmrc com a versao desejada para o projeto e rodar o nvm use para rodar naquele projeto
+
+Rodar node -v > .nvmrc para criar um arquivo com a versao apropriada para aquele projeto
