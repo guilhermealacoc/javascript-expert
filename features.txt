@@ -1,0 +1,3 @@
+the file should have id,name,profession and age fields 
+the file should not be empty 
+te file should not belonger than 4 lines including headers
