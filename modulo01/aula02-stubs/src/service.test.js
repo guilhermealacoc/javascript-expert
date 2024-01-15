@@ -25,8 +25,8 @@ const mocks = {
       service.makeRequest.name
     )
 
-    stub.withArgs(BASE_URL_2).resolves(mocks.alderaan)
     stub.withArgs(BASE_URL_1).resolves(mocks.tatooine)
+    stub.withArgs(BASE_URL_2).resolves(mocks.alderaan)
 
     {
      const expected = {
@@ -38,5 +38,16 @@ const mocks = {
      const results = await service.getPlanets(BASE_URL_1)
      assert.deepStrictEqual(results, expected)
     }
+
+    {
+      const expected = {
+       name: "Alderaan",
+       surfaceWater: "40",
+       appeardIn: 2
+      }
+ 
+      const results = await service.getPlanets(BASE_URL_2)
+      assert.deepStrictEqual(results, expected)
+     }
   }
 })()
