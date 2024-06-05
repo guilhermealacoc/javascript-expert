@@ -4,12 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node index.test.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "engines": {
     "node": "18"
   },
   "keywords": [],
-  "author": "guilhermealacoc",
+  "author": "",
   "license": "ISC"
 }
