@@ -18,6 +18,7 @@ class File {
     //para ver o conteudo do arquivo
     // fs.readFileSync('./mocks/threeItems-valid.csv', 'utf8')
     const [header, ...fileWithoutHeader] = csvString.split(/\r?\n/);
+
     const isHeaderValid = header === options.fields.join(",");
     if (!isHeaderValid) {
       return {
