@@ -6,7 +6,7 @@ class Fibonacci {
             return
         }
 
-        //retorna o valor atual
+        //retorna o valor
         yield current
 
 
