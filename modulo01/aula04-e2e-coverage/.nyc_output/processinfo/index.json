@@ -1,0 +1,1 @@
+{"processes":{"446a42cf-ac3d-492d-b7d2-ce271f99d305":{"parent":"c0701b4c-6d35-4fb0-b928-fcd6ddb88146","children":[]},"c0701b4c-6d35-4fb0-b928-fcd6ddb88146":{"parent":null,"children":["446a42cf-ac3d-492d-b7d2-ce271f99d305"]}},"files":{"/home/alacoc/desenvolvimento/javascript-expert/modulo01/aula04-e2e-coverage/src/api.js":["446a42cf-ac3d-492d-b7d2-ce271f99d305"]},"externalIds":{}}
