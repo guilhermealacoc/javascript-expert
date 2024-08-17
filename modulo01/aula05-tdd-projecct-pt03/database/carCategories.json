@@ -1,0 +1,12 @@
+[
+    {
+        "id": "17a7ddd2-7fe0-414c-a816-f9c4f0b2783c",
+        "name": "Crew Cab Pickup",
+        "carIds": [
+            "9cb84d9a-4f98-4eed-99e8-b76d28efa7bb",
+            "13018d6f-2348-41b1-b3ec-7602764ccae3",
+            "b446f08d-9ccb-482b-bc77-2364fc4903fb"
+        ],
+        "price": 36.38
+    }
+]
